@@ -20,6 +20,7 @@ Packages you would need for this script to run are: Selenium and Emoji
  
  After making necessary changes, to run it on command line:
 ```python3 script.py```
+
  Enjoy! 
  
   
