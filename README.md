@@ -3,6 +3,7 @@
 Description: 
 
 This is a python script which can be used to Like and Comment latest pictures of any user account on Instagram. 
+
 **Script will not work on a profile which you don't follow and is private.**
 
 There are pre-defined comments saved in the list and from this list comments are randomly fetched and after the comment is posted, the comment is deleted from the list. 
