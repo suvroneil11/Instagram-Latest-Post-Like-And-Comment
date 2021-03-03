@@ -28,11 +28,11 @@ def chrome_opt():
     chrome_options.add_argument("--disable-gpu")
     return chrome_options
 
-
+#Download Chromedriver and keep the the exe file in the D drive
 driver = webdriver.Chrome(chrome_options=chrome_opt(),executable_path="D:\chromedriver.exe")
 
-#Replace xyz with the username of the profule where you want to run the script
-driver.get("https://www.instagram.com/slipshod666")
+#Replace xyz with the username of the profile where you want to run the script
+driver.get("https://www.instagram.com/xyz")
 time.sleep(2)
 
 #Login Form
