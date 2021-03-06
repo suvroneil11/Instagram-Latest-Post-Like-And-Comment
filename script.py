@@ -31,6 +31,9 @@ driver = webdriver.Chrome(chrome_options=chrome_opt(),executable_path="D:\chrome
 driver.get("https://www.instagram.com/xyz")
 time.sleep(2)
 
+driver.find_element_by_xpath("//button[contains(text(),'Log In')]").click()
+time.sleep(2)
+
 #Login Form
 username =driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input')
 username.send_keys(username_ig)
